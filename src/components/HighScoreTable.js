@@ -24,7 +24,7 @@ const HighScoreTable = () => {
                       .sort((a, b) => a.n.localeCompare(b.n))
                       .map(({ n, s }, i) => {
                         return (
-                          <tr scope="row" key={i}>
+                          <tr  key={i}>
                             <td>{n}</td>
                             <td>{s}</td>
                           </tr>
